@@ -13,7 +13,7 @@ accessibility to medical knowledge through medical chatbots
 Clone the project
 
 ```bash
-  git clone https://github.com/soumyakoli/Healthcare-chatbot-master
+  git clone https://github.com/hemanthaaa/Healthcare-chatbot-master
 ```
 
 Go to the project directory
@@ -60,8 +60,8 @@ open terminal in this directory and run the following command to start flask ser
 
 **Chatbot framework:** Rasa
 
-# Team 
-Soumya
-Bhuvaneshwari
-Thushar
-Abhishek
+# Team17 
+Hemanth kumar holla,
+Mahesh chandru,
+Arpitha M,
+Rajeshwari C
