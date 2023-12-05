@@ -1,0 +1,79 @@
+.fixed-panel {
+  min-height: 400px;
+  max-height: 400px;
+  background-color: #19313c;
+  color: white;
+  overflow: auto;
+}
+.media-list {
+  overflow: auto;
+  clear: both;
+  display: table;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: normal;
+  line-break: strict;
+}
+.panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 6px solid transparent;
+  border-radius: 25px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+.panel-info {
+  border-color: #0c2735;
+}
+.panel-info > .panel-heading {
+  color: white;
+  background-color: #0c2735;
+  border-color: #0c2735;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #0c2735;
+  border-top: 1px solid #0c2735;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+body {
+  min-height: 90vh;
+  padding: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+   /* background: rgb(96, 143, 149);
+  background: -moz-linear-gradient(
+    -45deg,
+    rgba(96, 143, 149, 1) 0%,
+    rgba(0, 133, 136, 1) 9%,
+    rgba(12, 36, 73, 1) 52%,
+    rgba(26, 30, 59, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    -45deg,
+    rgba(96, 143, 149, 1) 0%,
+    rgba(0, 133, 136, 1) 9%,
+    rgba(12, 36, 73, 1) 52%,
+    rgba(26, 30, 59, 1) 100%
+  ); 
+  background: linear-gradient(
+    135deg,
+    rgba(96, 143, 149, 1) 0%,
+    rgba(0, 133, 136, 1) 9%,
+    rgba(12, 36, 73, 1) 52%,
+    rgba(26, 30, 59, 1) 100%
+  ); */
+  background-image: url(healthcare-background.jpg);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#608f95', endColorstr='#1a1e3b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.botText{
+  font-style:italic;
+}
+.userText{
+  text-align:right;
+  font-weight: bolder;
+}
+.userInput{
+  width: 90% !important;
+}
